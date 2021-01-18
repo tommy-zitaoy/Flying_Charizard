@@ -3,7 +3,7 @@ var gameEngine = new GameEngine();
 var ASSET_MANAGER = new AssetManager();
 
 ASSET_MANAGER.queueDownload("./sprites/sky.png")
-ASSET_MANAGER.queueDownload("./sprites/charizard.png")
+ASSET_MANAGER.queueDownload("./sprites/charizard.PNG")
 
 ASSET_MANAGER.downloadAll(function () {
 	var canvas = document.getElementById('gameWorld');
