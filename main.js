@@ -22,5 +22,4 @@ ASSET_MANAGER.downloadAll(function () {
 	gameEngine.addEntity(background);
 	gameEngine.addEntity(charizard);
 	//gameEngine.addEntity(rayquaza);
-
 });
