@@ -15,9 +15,7 @@ ASSET_MANAGER.downloadAll(function () {
 
 	// add background
 	let background = new Sky(gameEngine, 0, 0);
-	//let rayquaza = new Rayquaza(gameEngine, 0, 300);
 	let charizard = new Charizard(gameEngine, 700, 300, false);
 	gameEngine.addEntity(background);
 	gameEngine.addEntity(charizard);
-	//gameEngine.addEntity(rayquaza);
 });
