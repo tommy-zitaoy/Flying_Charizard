@@ -4,8 +4,6 @@ var ASSET_MANAGER = new AssetManager();
 
 ASSET_MANAGER.queueDownload("./sprites/sky.png")
 ASSET_MANAGER.queueDownload("./sprites/charizard.png")
-ASSET_MANAGER.queueDownload("./sprites/charizard_reverse.png")
-ASSET_MANAGER.queueDownload("./sprites/rayquaza.png")
 
 ASSET_MANAGER.downloadAll(function () {
 	var canvas = document.getElementById('gameWorld');
