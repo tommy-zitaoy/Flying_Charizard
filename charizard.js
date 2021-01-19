@@ -37,7 +37,7 @@ class Charizard {
     }
 
 	update() {
-		console.log(this.evolveEffect1, this.evolveEffect2);
+		//console.log(this.evolveEffect1, this.evolveEffect2);
 		if (this.game.Space && this.stage < 2) {
 
 			// adjust x y to make evolution look more smooth
