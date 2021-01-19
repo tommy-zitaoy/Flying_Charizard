@@ -27,8 +27,8 @@ class Charizard {
 
 		this.animations[0][0] = new Animator(this.spriteSheet_charmander, 2, 70, 50, 50, 10, 0.20, 0, false, true);
 		this.animations[1][0] = new Animator(this.spriteSheet_charmeleon, 8, 180, 70, 60, 11, 0.20, 9, false, true);
-		this.animations[2][0] = new Animator(this.spriteSheet_charizard, 0, 0, 155, 143, 9, 0.15, 1, false, true);
-		this.animations[2][1] = new Animator(this.spriteSheet_charizard2, 162, 0, 155, 143, 9, 0.15, 1, true, true);
+		this.animations[2][0] = new Animator(this.spriteSheet_charizard, 155, 0, 155, 143, 8, 0.15, 1, false, true);
+		this.animations[2][1] = new Animator(this.spriteSheet_charizard2, 162, 0, 155, 143, 8, 0.15, 1, true, true);
 
 		this.evolveAnimation1 = new EvolveEffect(this.game, this.x, this.y);
 		this.evolveAnimation2 = new EvolveEffect2(this.game, this.x, this.y);
