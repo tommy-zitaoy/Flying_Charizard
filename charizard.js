@@ -92,10 +92,10 @@ class Charizard {
 			} else if (this.x > (PARAMS.CANVASWIDTH - 155 * 2)) {
 				this.x = (PARAMS.CANVASWIDTH - 155 * 2);
 			}
-			if (this.y < 0) {
-				this.y = 0;
-			} else if (this.y > (PARAMS.CANVASHEIGHT - 143 * 2)) {
-				this.y = (PARAMS.CANVASHEIGHT - 143 * 2);
+			if (this.y < 0 - 100) {
+				this.y = 0 - 100;
+			} else if (this.y > (PARAMS.CANVASHEIGHT - 143 * 1.7)) {
+				this.y = (PARAMS.CANVASHEIGHT - 143 * 1.7);
 			}
 
 			this.x += this.velocity.x * TICK * 3;

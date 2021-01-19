@@ -28,6 +28,6 @@ window.requestAnimFrame = (function () {
 // add global parameters here
 
 var PARAMS = {
-    CANVASWIDTH: 1900,
-    CANVASHEIGHT:  800
+    CANVASWIDTH: 1850,
+    CANVASHEIGHT:  790
 };
